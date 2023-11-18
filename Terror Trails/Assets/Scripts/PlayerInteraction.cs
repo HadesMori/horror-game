@@ -4,21 +4,38 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    [SerializeField] private float interactionRange = 2f;
     [SerializeField] private KeyCode interactionButton;
+    private PlayerMovement playerMovement;
+    private IInteractable interactable;
 
-    void Update()
+    private void Start()
     {
-        if (Input.GetKeyDown(interactionButton))
+        playerMovement = GetComponent<PlayerMovement>();
+    }
+
+    private void Update()
+    {
+        InteractWith();
+    }
+
+    private void InteractWith()
+    {
+        if (Input.GetKeyDown(interactionButton) && interactable != null)
         {
-            Collider2D[] nearest = Physics2D.OverlapCircleAll(transform.position, interactionRange);
-            foreach (Collider2D collider in nearest)
-            {
-                if (collider.TryGetComponent(out IInteractable interactable))
-                {
-                    interactable.Interact();
-                }
-            }
+            interactable.Interact();
+            playerMovement.SwitchMoveState();
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        collision.TryGetComponent(out interactable);
+        interactable.ShowHint();
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        interactable.HideHint();
+        interactable = null;
     }
 }

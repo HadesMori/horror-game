@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float runMultiplier;
     [SerializeField] private KeyCode runButton = KeyCode.LeftShift;
+    private bool canMove;
     private Rigidbody2D rb;
     private Animator animator;
     private Vector2 direction;
@@ -16,19 +17,22 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        CanMove();
     }
 
     private void Update()
     {
         SetDirection();
-        SetAnimatorParameters();
     }
 
 
     void FixedUpdate()
     {
-        Move();
-        Run();
+        if (canMove)
+        {
+            Move();
+            Run();
+        }
     }
 
     private void SetDirection()
@@ -39,6 +43,16 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 Move()
     {
         rb.velocity = direction * speed * Time.fixedDeltaTime;
+
+        animator.SetFloat("Horizontal", direction.x);
+        animator.SetFloat("Vertical", direction.y);
+        animator.SetFloat("Speed", direction.magnitude);
+
+        if (direction.x == 1 || direction.x == -1 || direction.y == 1 || direction.y == -1)
+        {
+            animator.SetFloat("LastX", direction.x);
+            animator.SetFloat("LastY", direction.y);
+        }
         return rb.velocity;
     }
 
@@ -54,16 +68,30 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void SetAnimatorParameters()
+    private void Stop()
     {
-        animator.SetFloat("Horizontal", direction.x);
-        animator.SetFloat("Vertical", direction.y);
-        animator.SetFloat("Speed", direction.magnitude);
+        rb.velocity = Vector2.zero;
+        animator.SetFloat("Horizontal", 0);
+        animator.SetFloat("Vertical", 0);
+        animator.SetFloat("Speed", 0);
+        canMove = false;
+    }
 
-        if (direction.x == 1 || direction.x == -1 || direction.y == 1 || direction.y == -1)
+    private void CanMove()
+    {
+        canMove = true;
+    }
+
+    public void SwitchMoveState()
+    {
+        if (canMove)
         {
-            animator.SetFloat("LastX", direction.x);
-            animator.SetFloat("LastY", direction.y);
+            Stop();
+        }
+        else
+        {
+            CanMove();
         }
     }
+
 }
