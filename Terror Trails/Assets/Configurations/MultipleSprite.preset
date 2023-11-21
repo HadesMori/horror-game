@@ -6,7 +6,7 @@ Preset:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TextureImporter
+  m_Name: MultipleSprite
   m_TargetType:
     m_NativeTypeID: 1006
     m_ManagedTypePPtr: {fileID: 0}
@@ -266,7 +266,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.size
-    value: 5
+    value: 3
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettings.Array.data[0].m_BuildTarget
@@ -413,108 +413,12 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_BuildTarget
-    value: WebGL
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_MaxTextureSize
-    value: 2048
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_ResizeAlgorithm
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_TextureFormat
-    value: -1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_TextureCompression
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_CompressionQuality
-    value: 50
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_CrunchedCompression
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_AllowsAlphaSplitting
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_Overridden
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_IgnorePlatformSupport
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_AndroidETC2FallbackOverride
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[3].m_ForceMaximumCompressionQuality_BC6H_BC7
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_BuildTarget
-    value: Windows Store Apps
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_MaxTextureSize
-    value: 2048
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_ResizeAlgorithm
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_TextureFormat
-    value: -1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_TextureCompression
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_CompressionQuality
-    value: 50
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_CrunchedCompression
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_AllowsAlphaSplitting
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_Overridden
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_IgnorePlatformSupport
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_AndroidETC2FallbackOverride
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PlatformSettings.Array.data[4].m_ForceMaximumCompressionQuality_BC6H_BC7
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.size
     value: 32
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[0].m_Name
-    value: PlayerWalk_0
+    value: Player_Movement_0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[0].m_Rect.x
@@ -534,11 +438,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[0].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[0].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[0].m_Pivot.y
@@ -578,11 +482,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[0].m_SpriteID
-    value: 5918d13fcfd104e4daadd7abe5864643
+    value: e63061fcf81a1964d91a5f1fb7d32049
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[0].m_InternalID
-    value: 953472394
+    value: 1980542467
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[0].m_Vertices.Array.size
@@ -602,7 +506,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[1].m_Name
-    value: PlayerWalk_1
+    value: Player_Movement_1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[1].m_Rect.x
@@ -622,11 +526,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[1].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[1].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[1].m_Pivot.y
@@ -666,11 +570,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[1].m_SpriteID
-    value: d178b0d02f072c64eba816507b76eabc
+    value: e0131d814dd26984e80211cc4881d84c
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[1].m_InternalID
-    value: 802150346
+    value: -216789664
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[1].m_Vertices.Array.size
@@ -690,7 +594,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[2].m_Name
-    value: PlayerWalk_2
+    value: Player_Movement_2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[2].m_Rect.x
@@ -710,11 +614,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[2].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[2].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[2].m_Pivot.y
@@ -754,11 +658,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[2].m_SpriteID
-    value: b7954091df3f77c4684f030e17a8f597
+    value: 032656c4399a9b54da9507c89907ba9c
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[2].m_InternalID
-    value: 1919321437
+    value: -751139013
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[2].m_Vertices.Array.size
@@ -778,7 +682,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[3].m_Name
-    value: PlayerWalk_3
+    value: Player_Movement_3
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[3].m_Rect.x
@@ -798,11 +702,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[3].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[3].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[3].m_Pivot.y
@@ -842,11 +746,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[3].m_SpriteID
-    value: c87d6c58614da5f4d89d7324a598c267
+    value: 807e059fb3ce3e246abe63d6680b4a8e
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[3].m_InternalID
-    value: -1190302695
+    value: 1291927259
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[3].m_Vertices.Array.size
@@ -866,7 +770,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[4].m_Name
-    value: PlayerWalk_4
+    value: Player_Movement_4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[4].m_Rect.x
@@ -886,11 +790,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[4].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[4].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[4].m_Pivot.y
@@ -930,11 +834,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[4].m_SpriteID
-    value: 24adc8c1d7a7e924e9d86ec26b1f9fd3
+    value: 3f216f1fe13828647a0072bd368c8a5a
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[4].m_InternalID
-    value: -1033899113
+    value: -859625591
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[4].m_Vertices.Array.size
@@ -954,7 +858,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[5].m_Name
-    value: PlayerWalk_5
+    value: Player_Movement_5
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[5].m_Rect.x
@@ -974,11 +878,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[5].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[5].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[5].m_Pivot.y
@@ -1018,11 +922,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[5].m_SpriteID
-    value: 044ad1caedd9e7a4594a87d32f9a1482
+    value: c6d6c1e0ddd26f841894067f5b82d3bf
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[5].m_InternalID
-    value: -1739009275
+    value: 445115273
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[5].m_Vertices.Array.size
@@ -1042,7 +946,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[6].m_Name
-    value: PlayerWalk_6
+    value: Player_Movement_6
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[6].m_Rect.x
@@ -1062,11 +966,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[6].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[6].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[6].m_Pivot.y
@@ -1106,11 +1010,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[6].m_SpriteID
-    value: e8009ccb732cdbd4eb7b2672769016ad
+    value: bdf4a8f205816ee4f9bbabc1435d13bf
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[6].m_InternalID
-    value: -1043351952
+    value: 1648711896
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[6].m_Vertices.Array.size
@@ -1130,7 +1034,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[7].m_Name
-    value: PlayerWalk_7
+    value: Player_Movement_7
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[7].m_Rect.x
@@ -1150,11 +1054,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[7].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[7].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[7].m_Pivot.y
@@ -1194,11 +1098,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[7].m_SpriteID
-    value: ea7cf8308c0cf584eba398ae308b5962
+    value: 4d04f178f9c99134280263a33bedc6a5
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[7].m_InternalID
-    value: 1234340571
+    value: -833179958
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[7].m_Vertices.Array.size
@@ -1218,7 +1122,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[8].m_Name
-    value: PlayerWalk_8
+    value: Player_Movement_8
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[8].m_Rect.x
@@ -1238,11 +1142,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[8].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[8].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[8].m_Pivot.y
@@ -1282,11 +1186,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[8].m_SpriteID
-    value: d913a8784bc3a99489ff5eb2f9a24659
+    value: 6f0f85c7ed159bf4e9228c69a63a5891
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[8].m_InternalID
-    value: 39253922
+    value: 1955166156
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[8].m_Vertices.Array.size
@@ -1306,7 +1210,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[9].m_Name
-    value: PlayerWalk_9
+    value: Player_Movement_9
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[9].m_Rect.x
@@ -1326,11 +1230,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[9].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[9].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[9].m_Pivot.y
@@ -1370,11 +1274,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[9].m_SpriteID
-    value: 1e8ec6195c1bd51418c69a1a73374482
+    value: 29593b49fd9f53345aafb0c2afbbbfa6
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[9].m_InternalID
-    value: 1469147202
+    value: -1188870914
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[9].m_Vertices.Array.size
@@ -1394,7 +1298,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[10].m_Name
-    value: PlayerWalk_10
+    value: Player_Movement_10
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[10].m_Rect.x
@@ -1414,11 +1318,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[10].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[10].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[10].m_Pivot.y
@@ -1458,11 +1362,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[10].m_SpriteID
-    value: 50506ef130ab2b1418c71ab4dbd71bc5
+    value: cd2705082c7a5884795082cc48bb338c
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[10].m_InternalID
-    value: -1137773918
+    value: -1498833015
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[10].m_Vertices.Array.size
@@ -1482,7 +1386,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[11].m_Name
-    value: PlayerWalk_11
+    value: Player_Movement_11
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[11].m_Rect.x
@@ -1502,11 +1406,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[11].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[11].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[11].m_Pivot.y
@@ -1546,11 +1450,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[11].m_SpriteID
-    value: ee5779be93cc7fc429607198d7462a64
+    value: 3933f74682b097f4ea7d96339937215f
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[11].m_InternalID
-    value: -451673280
+    value: 1504542016
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[11].m_Vertices.Array.size
@@ -1570,7 +1474,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[12].m_Name
-    value: PlayerWalk_12
+    value: Player_Movement_12
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[12].m_Rect.x
@@ -1590,11 +1494,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[12].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[12].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[12].m_Pivot.y
@@ -1634,11 +1538,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[12].m_SpriteID
-    value: 0e05ba0e884c912458fe533e94f12f54
+    value: 2686d1d2140ac764aa0c1c69be41b5ef
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[12].m_InternalID
-    value: 1819264800
+    value: 2124501818
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[12].m_Vertices.Array.size
@@ -1658,7 +1562,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[13].m_Name
-    value: PlayerWalk_13
+    value: Player_Movement_13
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[13].m_Rect.x
@@ -1678,11 +1582,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[13].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[13].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[13].m_Pivot.y
@@ -1722,11 +1626,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[13].m_SpriteID
-    value: 9302df5a0d1f65b4e9b7379776698522
+    value: 4fe17a3001c0f5746a50790b5637b985
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[13].m_InternalID
-    value: 1275580548
+    value: -372745409
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[13].m_Vertices.Array.size
@@ -1746,7 +1650,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[14].m_Name
-    value: PlayerWalk_14
+    value: Player_Movement_14
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[14].m_Rect.x
@@ -1766,11 +1670,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[14].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[14].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[14].m_Pivot.y
@@ -1810,11 +1714,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[14].m_SpriteID
-    value: ae753fd729579254d88103ec38dc81e5
+    value: 3b2ad47913321024490cfac360b3cf54
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[14].m_InternalID
-    value: -493034982
+    value: 123840436
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[14].m_Vertices.Array.size
@@ -1834,7 +1738,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[15].m_Name
-    value: PlayerWalk_15
+    value: Player_Movement_15
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[15].m_Rect.x
@@ -1854,11 +1758,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[15].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[15].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[15].m_Pivot.y
@@ -1898,11 +1802,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[15].m_SpriteID
-    value: 49fe0f80a496903458ce1367ffc17be7
+    value: 1561e14e6e2e3d641a681d558f689de8
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[15].m_InternalID
-    value: -1935727576
+    value: 2044512638
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[15].m_Vertices.Array.size
@@ -1922,7 +1826,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[16].m_Name
-    value: PlayerWalk_16
+    value: Player_Movement_16
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[16].m_Rect.x
@@ -1942,11 +1846,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[16].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[16].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[16].m_Pivot.y
@@ -1986,11 +1890,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[16].m_SpriteID
-    value: b4063ebd9febd4049a4f36f282632e24
+    value: ac56fe91a940a4540a70a993407df7af
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[16].m_InternalID
-    value: 362701827
+    value: 265201788
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[16].m_Vertices.Array.size
@@ -2010,7 +1914,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[17].m_Name
-    value: PlayerWalk_17
+    value: Player_Movement_17
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[17].m_Rect.x
@@ -2030,11 +1934,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[17].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[17].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[17].m_Pivot.y
@@ -2074,11 +1978,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[17].m_SpriteID
-    value: 1dd56da3b1eb69b47a4965396c78832b
+    value: 08689ef809c3555438c55945739960a8
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[17].m_InternalID
-    value: 1981512339
+    value: -458041984
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[17].m_Vertices.Array.size
@@ -2098,7 +2002,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[18].m_Name
-    value: PlayerWalk_18
+    value: Player_Movement_18
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[18].m_Rect.x
@@ -2118,11 +2022,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[18].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[18].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[18].m_Pivot.y
@@ -2162,11 +2066,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[18].m_SpriteID
-    value: 64926c6253c1eab49aa0b05119f43e20
+    value: bbcc9796b9c8de94f88b9530724508da
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[18].m_InternalID
-    value: 1421417167
+    value: 2117862520
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[18].m_Vertices.Array.size
@@ -2186,7 +2090,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[19].m_Name
-    value: PlayerWalk_19
+    value: Player_Movement_19
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[19].m_Rect.x
@@ -2206,11 +2110,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[19].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[19].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[19].m_Pivot.y
@@ -2250,11 +2154,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[19].m_SpriteID
-    value: 6fe07f490f38eec47aaaa9bc6f6317d4
+    value: 9a48bd7bc086cf34cb33a20023e1629b
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[19].m_InternalID
-    value: -1009043413
+    value: -55190377
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[19].m_Vertices.Array.size
@@ -2274,7 +2178,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[20].m_Name
-    value: PlayerWalk_20
+    value: Player_Movement_20
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[20].m_Rect.x
@@ -2294,11 +2198,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[20].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[20].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[20].m_Pivot.y
@@ -2338,11 +2242,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[20].m_SpriteID
-    value: 142afa640c3c03c4f8e4af0f4a386f77
+    value: c703ef12f004e9640ab86392123094d9
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[20].m_InternalID
-    value: 1103571914
+    value: 1277450554
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[20].m_Vertices.Array.size
@@ -2362,7 +2266,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[21].m_Name
-    value: PlayerWalk_21
+    value: Player_Movement_21
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[21].m_Rect.x
@@ -2382,11 +2286,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[21].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[21].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[21].m_Pivot.y
@@ -2426,11 +2330,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[21].m_SpriteID
-    value: b0dc1ee6798f5664faeb64853a5bf17d
+    value: d9d4373f8d98d2e43b487664ba47951d
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[21].m_InternalID
-    value: -1888446712
+    value: 1495322669
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[21].m_Vertices.Array.size
@@ -2450,7 +2354,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[22].m_Name
-    value: PlayerWalk_22
+    value: Player_Movement_22
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[22].m_Rect.x
@@ -2470,11 +2374,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[22].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[22].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[22].m_Pivot.y
@@ -2514,11 +2418,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[22].m_SpriteID
-    value: 0336312fa05cbdb44b34fb911ff59f76
+    value: c0d8d40b62f4e20499adbb9a60ed7ae3
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[22].m_InternalID
-    value: 1369323071
+    value: 2145512553
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[22].m_Vertices.Array.size
@@ -2538,7 +2442,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[23].m_Name
-    value: PlayerWalk_23
+    value: Player_Movement_23
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[23].m_Rect.x
@@ -2558,11 +2462,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[23].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[23].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[23].m_Pivot.y
@@ -2602,11 +2506,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[23].m_SpriteID
-    value: 20c06fe4ae74e4e4ab1480175e525a9b
+    value: 7be321316994ca549adf72041f2d792d
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[23].m_InternalID
-    value: -1511408921
+    value: 444560033
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[23].m_Vertices.Array.size
@@ -2626,7 +2530,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[24].m_Name
-    value: PlayerWalk_24
+    value: Player_Movement_24
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[24].m_Rect.x
@@ -2646,11 +2550,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[24].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[24].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[24].m_Pivot.y
@@ -2690,11 +2594,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[24].m_SpriteID
-    value: 03eb45c9b6d24c441be6e522d913a823
+    value: 9bfa7b0353b66994fb8513e7e35c1ffb
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[24].m_InternalID
-    value: -1356204277
+    value: 44388829
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[24].m_Vertices.Array.size
@@ -2714,7 +2618,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[25].m_Name
-    value: PlayerWalk_25
+    value: Player_Movement_25
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[25].m_Rect.x
@@ -2734,11 +2638,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[25].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[25].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[25].m_Pivot.y
@@ -2778,11 +2682,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[25].m_SpriteID
-    value: 9a7f5e69cf916a341b86b18ec5c636e4
+    value: 85f9d36ba1cd22246950e2db13aaea29
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[25].m_InternalID
-    value: 1653877448
+    value: 2031900749
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[25].m_Vertices.Array.size
@@ -2802,7 +2706,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[26].m_Name
-    value: PlayerWalk_26
+    value: Player_Movement_26
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[26].m_Rect.x
@@ -2822,11 +2726,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[26].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[26].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[26].m_Pivot.y
@@ -2866,11 +2770,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[26].m_SpriteID
-    value: c8298088e09965b4ba9e70495fd25c9a
+    value: 6fb945de066c9df4591f1b584cf3f300
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[26].m_InternalID
-    value: 516519224
+    value: 2013226419
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[26].m_Vertices.Array.size
@@ -2890,7 +2794,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[27].m_Name
-    value: PlayerWalk_27
+    value: Player_Movement_27
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[27].m_Rect.x
@@ -2910,11 +2814,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[27].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[27].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[27].m_Pivot.y
@@ -2954,11 +2858,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[27].m_SpriteID
-    value: 2f1aa3c66ed69954096058c757ed5143
+    value: bf9bf171e5ca337458733b4825b3b676
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[27].m_InternalID
-    value: -2036697271
+    value: 1007576474
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[27].m_Vertices.Array.size
@@ -2978,7 +2882,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[28].m_Name
-    value: PlayerWalk_28
+    value: Player_Movement_28
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[28].m_Rect.x
@@ -2998,11 +2902,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[28].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[28].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[28].m_Pivot.y
@@ -3042,11 +2946,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[28].m_SpriteID
-    value: 9edc96717d3bc064c8055f6949e6de41
+    value: 5874afd96aa2cde429a1f8a318db0c91
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[28].m_InternalID
-    value: 732544650
+    value: -1863136108
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[28].m_Vertices.Array.size
@@ -3066,7 +2970,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[29].m_Name
-    value: PlayerWalk_29
+    value: Player_Movement_29
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[29].m_Rect.x
@@ -3086,11 +2990,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[29].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[29].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[29].m_Pivot.y
@@ -3130,11 +3034,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[29].m_SpriteID
-    value: 68b2d55ddf50ed24a9b3a641b1fae8c3
+    value: c3f030b5edd47ab449de8d76de9ec433
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[29].m_InternalID
-    value: -20667214
+    value: 703811275
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[29].m_Vertices.Array.size
@@ -3154,7 +3058,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[30].m_Name
-    value: PlayerWalk_30
+    value: Player_Movement_30
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[30].m_Rect.x
@@ -3174,11 +3078,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[30].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[30].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[30].m_Pivot.y
@@ -3218,11 +3122,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[30].m_SpriteID
-    value: 975cec6a446a0a742a904670da9b4546
+    value: 5553ca9681a78a742ac3943e572d1a86
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[30].m_InternalID
-    value: -1709421522
+    value: -2051157282
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[30].m_Vertices.Array.size
@@ -3242,7 +3146,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[31].m_Name
-    value: PlayerWalk_31
+    value: Player_Movement_31
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[31].m_Rect.x
@@ -3262,11 +3166,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[31].m_Alignment
-    value: 7
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[31].m_Pivot.x
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[31].m_Pivot.y
@@ -3306,11 +3210,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[31].m_SpriteID
-    value: cfdfb9bb872cd5341a704acebbfc98e2
+    value: 1a11c7eb1c855214294fff09997d38db
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[31].m_InternalID
-    value: -1955940614
+    value: -1505144433
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[31].m_Vertices.Array.size
@@ -3374,259 +3278,259 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[0].first
-    value: PlayerWalk_0
+    value: Player_Movement_0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[0].second
-    value: 953472394
+    value: 1980542467
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[1].first
-    value: PlayerWalk_1
+    value: Player_Movement_1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[1].second
-    value: 802150346
+    value: -216789664
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[2].first
-    value: PlayerWalk_10
+    value: Player_Movement_10
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[2].second
-    value: -1137773918
+    value: -1498833015
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[3].first
-    value: PlayerWalk_11
+    value: Player_Movement_11
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[3].second
-    value: -451673280
+    value: 1504542016
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[4].first
-    value: PlayerWalk_12
+    value: Player_Movement_12
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[4].second
-    value: 1819264800
+    value: 2124501818
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[5].first
-    value: PlayerWalk_13
+    value: Player_Movement_13
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[5].second
-    value: 1275580548
+    value: -372745409
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[6].first
-    value: PlayerWalk_14
+    value: Player_Movement_14
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[6].second
-    value: -493034982
+    value: 123840436
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[7].first
-    value: PlayerWalk_15
+    value: Player_Movement_15
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[7].second
-    value: -1935727576
+    value: 2044512638
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[8].first
-    value: PlayerWalk_16
+    value: Player_Movement_16
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[8].second
-    value: 362701827
+    value: 265201788
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[9].first
-    value: PlayerWalk_17
+    value: Player_Movement_17
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[9].second
-    value: 1981512339
+    value: -458041984
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[10].first
-    value: PlayerWalk_18
+    value: Player_Movement_18
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[10].second
-    value: 1421417167
+    value: 2117862520
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[11].first
-    value: PlayerWalk_19
+    value: Player_Movement_19
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[11].second
-    value: -1009043413
+    value: -55190377
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[12].first
-    value: PlayerWalk_2
+    value: Player_Movement_2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[12].second
-    value: 1919321437
+    value: -751139013
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[13].first
-    value: PlayerWalk_20
+    value: Player_Movement_20
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[13].second
-    value: 1103571914
+    value: 1277450554
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[14].first
-    value: PlayerWalk_21
+    value: Player_Movement_21
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[14].second
-    value: -1888446712
+    value: 1495322669
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[15].first
-    value: PlayerWalk_22
+    value: Player_Movement_22
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[15].second
-    value: 1369323071
+    value: 2145512553
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[16].first
-    value: PlayerWalk_23
+    value: Player_Movement_23
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[16].second
-    value: -1511408921
+    value: 444560033
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[17].first
-    value: PlayerWalk_24
+    value: Player_Movement_24
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[17].second
-    value: -1356204277
+    value: 44388829
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[18].first
-    value: PlayerWalk_25
+    value: Player_Movement_25
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[18].second
-    value: 1653877448
+    value: 2031900749
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[19].first
-    value: PlayerWalk_26
+    value: Player_Movement_26
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[19].second
-    value: 516519224
+    value: 2013226419
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[20].first
-    value: PlayerWalk_27
+    value: Player_Movement_27
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[20].second
-    value: -2036697271
+    value: 1007576474
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[21].first
-    value: PlayerWalk_28
+    value: Player_Movement_28
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[21].second
-    value: 732544650
+    value: -1863136108
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[22].first
-    value: PlayerWalk_29
+    value: Player_Movement_29
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[22].second
-    value: -20667214
+    value: 703811275
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[23].first
-    value: PlayerWalk_3
+    value: Player_Movement_3
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[23].second
-    value: -1190302695
+    value: 1291927259
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[24].first
-    value: PlayerWalk_30
+    value: Player_Movement_30
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[24].second
-    value: -1709421522
+    value: -2051157282
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[25].first
-    value: PlayerWalk_31
+    value: Player_Movement_31
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[25].second
-    value: -1955940614
+    value: -1505144433
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[26].first
-    value: PlayerWalk_4
+    value: Player_Movement_4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[26].second
-    value: -1033899113
+    value: -859625591
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[27].first
-    value: PlayerWalk_5
+    value: Player_Movement_5
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[27].second
-    value: -1739009275
+    value: 445115273
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[28].first
-    value: PlayerWalk_6
+    value: Player_Movement_6
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[28].second
-    value: -1043351952
+    value: 1648711896
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[29].first
-    value: PlayerWalk_7
+    value: Player_Movement_7
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[29].second
-    value: 1234340571
+    value: -833179958
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[30].first
-    value: PlayerWalk_8
+    value: Player_Movement_8
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[30].second
-    value: 39253922
+    value: 1955166156
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[31].first
-    value: PlayerWalk_9
+    value: Player_Movement_9
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_NameFileIdTable.Array.data[31].second
-    value: 1469147202
+    value: -1188870914
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_MipmapLimitGroupName
