@@ -5,8 +5,9 @@ using TMPro;
 
 public class Note : MonoBehaviour, IInteractable
 {
-    [SerializeField] private GameObject noteCanvas;
     [SerializeField] private string text;
+    [SerializeField] private GameObject noteCanvas;
+    [SerializeField] private GameObject buttonHint;
     private TextMeshProUGUI textMesh;
     private bool isOpen = false;
 
@@ -20,5 +21,15 @@ public class Note : MonoBehaviour, IInteractable
         isOpen = !isOpen;
         textMesh.text = text;
         noteCanvas.SetActive(isOpen);
+    }
+
+    public void ShowHint()
+    {
+        buttonHint.SetActive(true);
+    }
+
+    public void HideHint()
+    {
+        buttonHint.SetActive(false);
     }
 }

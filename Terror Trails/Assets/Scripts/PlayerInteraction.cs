@@ -7,6 +7,7 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private KeyCode interactionButton;
     private PlayerMovement playerMovement;
     private IInteractable interactable;
+    private List<Collider2D> intColliders = new List<Collider2D>();
 
     private void Start()
     {
@@ -15,13 +16,15 @@ public class PlayerInteraction : MonoBehaviour
 
     private void Update()
     {
-        InteractWith();
+        Interact();
     }
 
-    private void InteractWith()
+    private void Interact()
     {
-        if (Input.GetKeyDown(interactionButton) && interactable != null)
+        if (Input.GetKeyDown(interactionButton) && intColliders.Count > 0)
         {
+            int lastCollider = intColliders.Count - 1;
+            intColliders[lastCollider].TryGetComponent(out interactable);
             interactable.Interact();
             playerMovement.SwitchMoveState();
         }
@@ -29,13 +32,15 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        intColliders.Add(collision);
         collision.TryGetComponent(out interactable);
         interactable.ShowHint();
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        intColliders.Remove(collision);
+        collision.TryGetComponent(out interactable);
         interactable.HideHint();
-        interactable = null;
     }
 }
