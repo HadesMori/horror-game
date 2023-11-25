@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    [SerializeField] private Transform targetTransform;
-    [SerializeField] private float smoothTime;
-    private Vector3 offset = new Vector3(0, 0, -10f);
-    private Vector3 velocity = Vector3.zero;
+    [SerializeField] private Transform _targetTransform;
+    [SerializeField] private float _smoothTime;
+    private Vector3 _offset = new Vector3(0, 0, -10f);
+    private Vector3 _velocity = Vector3.zero;
 
     void LateUpdate()
     {
-        Vector3 targetPosition = targetTransform.position + offset;
-        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
+        Vector3 targetPosition = _targetTransform.position + _offset;
+        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref _velocity, _smoothTime);
     }
 }

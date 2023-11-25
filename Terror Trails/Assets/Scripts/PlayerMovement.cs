@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed;
-    [SerializeField] private float runMultiplier;
-    [SerializeField] private KeyCode runButton = KeyCode.LeftShift;
-    private Rigidbody2D rb;
-    private Animator animator;
-    private Vector2 direction;
+    [SerializeField] private float _speed;
+    [SerializeField] private float _runMultiplier;
+    [SerializeField] private KeyCode _runButton = KeyCode.LeftShift;
+    private Rigidbody2D _rb;
+    private Animator _animator;
+    private Vector2 _direction;
     
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -33,37 +33,37 @@ public class PlayerMovement : MonoBehaviour
 
     private void SetDirection()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        _direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
     }
 
     private Vector2 Move()
     {
-        rb.velocity = direction * speed * Time.fixedDeltaTime;
-        return rb.velocity;
+        _rb.velocity = _direction * _speed * Time.fixedDeltaTime;
+        return _rb.velocity;
     }
 
     private void Run()
     {
-        if (Input.GetKey(runButton)){
-            rb.velocity = Move() * runMultiplier;
-            animator.SetBool("isRunning", true);
+        if (Input.GetKey(_runButton)){
+            _rb.velocity = Move() * _runMultiplier;
+            _animator.SetBool("isRunning", true);
         }
         else
         {
-            animator.SetBool("isRunning", false);
+            _animator.SetBool("isRunning", false);
         }
     }
 
     private void SetAnimatorParameters()
     {
-        animator.SetFloat("Horizontal", direction.x);
-        animator.SetFloat("Vertical", direction.y);
-        animator.SetFloat("Speed", direction.magnitude);
+        _animator.SetFloat("Horizontal", _direction.x);
+        _animator.SetFloat("Vertical", _direction.y);
+        _animator.SetFloat("Speed", _direction.magnitude);
 
-        if (direction.x == 1 || direction.x == -1 || direction.y == 1 || direction.y == -1)
+        if (_direction.x == 1 || _direction.x == -1 || _direction.y == 1 || _direction.y == -1)
         {
-            animator.SetFloat("LastX", direction.x);
-            animator.SetFloat("LastY", direction.y);
+            _animator.SetFloat("LastX", _direction.x);
+            _animator.SetFloat("LastY", _direction.y);
         }
     }
 }
