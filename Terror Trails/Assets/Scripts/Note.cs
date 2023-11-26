@@ -5,22 +5,24 @@ using TMPro;
 
 public class Note : MonoBehaviour, IInteractable
 {
-    [SerializeField] private string text;
-    [SerializeField] private GameObject noteCanvas;
+
     [SerializeField] private GameObject buttonHint;
-    private TextMeshProUGUI textMesh;
-    private bool isOpen = false;
+    [SerializeField] private GameObject _noteCanvas;
+    [SerializeField] private string _text;
+    private TextMeshProUGUI _textMesh;
+    private bool _isOpen = false;
+
 
     private void Start()
     {
-        textMesh = noteCanvas.GetComponentInChildren<TextMeshProUGUI>();
+        _textMesh = _noteCanvas.GetComponentInChildren<TextMeshProUGUI>();
     }
 
     public void Interact()
     {
-        isOpen = !isOpen;
-        textMesh.text = text;
-        noteCanvas.SetActive(isOpen);
+        _isOpen = !_isOpen;
+        _textMesh.text = _text;
+        _noteCanvas.SetActive(_isOpen);
     }
 
     public void ShowHint()

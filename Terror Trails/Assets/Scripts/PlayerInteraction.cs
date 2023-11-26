@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    [SerializeField] private KeyCode interactionButton;
+
     private PlayerMovement playerMovement;
     private IInteractable interactable;
     private List<Collider2D> intColliders = new List<Collider2D>();
+    [SerializeField] private float _interactionRange = 2f;
+    [SerializeField] private KeyCode _interactionButton;
+
 
     private void Start()
     {
