@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-
-    private PlayerMovement playerMovement;
-    private IInteractable interactable;
-    private List<Collider2D> intColliders = new List<Collider2D>();
-    [SerializeField] private float _interactionRange = 2f;
     [SerializeField] private KeyCode _interactionButton;
+    private PlayerMovement _playerMovement;
+    private IInteractable _interactable;
+    private List<Collider2D> _intColliders = new List<Collider2D>();
 
 
     private void Start()
     {
-        playerMovement = GetComponent<PlayerMovement>();
+        _playerMovement = GetComponent<PlayerMovement>();
     }
 
     private void Update()
@@ -24,26 +22,32 @@ public class PlayerInteraction : MonoBehaviour
 
     private void Interact()
     {
-        if (Input.GetKeyDown(interactionButton) && intColliders.Count > 0)
+        if (Input.GetKeyDown(_interactionButton) && _intColliders.Count > 0)
         {
-            int lastCollider = intColliders.Count - 1;
-            intColliders[lastCollider].TryGetComponent(out interactable);
-            interactable.Interact();
-            playerMovement.SwitchMoveState();
+            int lastCollider = _intColliders.Count - 1;
+            _intColliders[lastCollider].TryGetComponent(out _interactable);
+            _interactable.Interact();
+            _playerMovement.SwitchMoveState();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        intColliders.Add(collision);
-        collision.TryGetComponent(out interactable);
-        interactable.ShowHint();
+        _intColliders.Add(collision);
+        collision.TryGetComponent(out _interactable);
+        if(_interactable != null)
+        {
+            _interactable.ShowHint();
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        intColliders.Remove(collision);
-        collision.TryGetComponent(out interactable);
-        interactable.HideHint();
+        _intColliders.Remove(collision);
+        collision.TryGetComponent(out _interactable);
+        if(_interactable != null)
+        {
+            _interactable.HideHint();
+        }
     }
 }

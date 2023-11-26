@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private float _runMultiplier;
     [SerializeField] private KeyCode _runButton = KeyCode.LeftShift;
-    private bool canMove;
+    private bool _canMove;
     private Rigidbody2D _rb;
     private Animator _animator;
     private Vector2 _direction;
@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (canMove)
+        if (_canMove)
         {
             Move();
             Run();
@@ -43,14 +43,14 @@ public class PlayerMovement : MonoBehaviour
     {
         _rb.velocity = _direction * _speed * Time.fixedDeltaTime;
 
-        _animator.SetFloat("Horizontal", direction.x);
-        _animator.SetFloat("Vertical", direction.y);
-        _animator.SetFloat("Speed", direction.magnitude);
+        _animator.SetFloat("Horizontal", _direction.x);
+        _animator.SetFloat("Vertical", _direction.y);
+        _animator.SetFloat("Speed", _direction.magnitude);
 
-        if (direction.x == 1 || direction.x == -1 || direction.y == 1 || direction.y == -1)
+        if (_direction.x == 1 || _direction.x == -1 || _direction.y == 1 || _direction.y == -1)
         {
-            _animator.SetFloat("LastX", direction.x);
-            _animator.SetFloat("LastY", direction.y);
+            _animator.SetFloat("LastX", _direction.x);
+            _animator.SetFloat("LastY", _direction.y);
         }
         return _rb.velocity;
     }
@@ -73,17 +73,17 @@ public class PlayerMovement : MonoBehaviour
         _animator.SetFloat("Horizontal", 0);
         _animator.SetFloat("Vertical", 0);
         _animator.SetFloat("Speed", 0);
-        canMove = false;
+        _canMove = false;
     }
 
     private void CanMove()
     {
-        canMove = true;
+        _canMove = true;
     }
 
     public void SwitchMoveState()
     {
-        if (canMove)
+        if (_canMove)
         {
             Stop();
         }

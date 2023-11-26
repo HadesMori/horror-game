@@ -6,7 +6,7 @@ using TMPro;
 public class Note : MonoBehaviour, IInteractable
 {
 
-    [SerializeField] private GameObject buttonHint;
+    [SerializeField] private GameObject _buttonHint;
     [SerializeField] private GameObject _noteCanvas;
     [SerializeField] private string _text;
     private TextMeshProUGUI _textMesh;
@@ -27,11 +27,11 @@ public class Note : MonoBehaviour, IInteractable
 
     public void ShowHint()
     {
-        buttonHint.SetActive(true);
+        _buttonHint.SetActive(true);
     }
 
     public void HideHint()
     {
-        buttonHint.SetActive(false);
+        _buttonHint.SetActive(false);
     }
 }
