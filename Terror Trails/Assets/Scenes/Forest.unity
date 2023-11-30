@@ -1468,33 +1468,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2556829454769138074, guid: eceb0e80ab704394086c4988087a5c3d, type: 3}
-      propertyPath: _speed
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 2556829454769138074, guid: eceb0e80ab704394086c4988087a5c3d, type: 3}
-      propertyPath: _runMultiplier
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3654262180848354424, guid: eceb0e80ab704394086c4988087a5c3d, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7284482413698417814, guid: eceb0e80ab704394086c4988087a5c3d, type: 3}
-      propertyPath: m_Size.x
-      value: 0.18994652
-      objectReference: {fileID: 0}
-    - target: {fileID: 7284482413698417814, guid: eceb0e80ab704394086c4988087a5c3d, type: 3}
-      propertyPath: m_Size.y
-      value: 0.069843024
-      objectReference: {fileID: 0}
-    - target: {fileID: 7284482413698417814, guid: eceb0e80ab704394086c4988087a5c3d, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.0030713454
-      objectReference: {fileID: 0}
-    - target: {fileID: 7284482413698417814, guid: eceb0e80ab704394086c4988087a5c3d, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.0126442015
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

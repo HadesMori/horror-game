@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0f245777ca1f4ab41adbfc89ec76d8d9
+guid: f33a53b59c3bf854b8dc8ed709af7c1b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayeRun_0
+      name: PlayerRun_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e67a7c6345824341b1b1fc2d634deaf
-      internalID: -563480813
+      spriteID: 9f033e1a5c91da24c97e0dbfb38d117e
+      internalID: 1235654647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_1
+      name: PlayerRun_1
       rect:
         serializedVersion: 2
         x: 16
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 722a0426e36754648b5d9743350ce083
-      internalID: 204735670
+      spriteID: 4d7edf86c60365e40b42b89826a73180
+      internalID: 1539896250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_2
+      name: PlayerRun_2
       rect:
         serializedVersion: 2
         x: 32
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa482d11f7bb31543bbe52867a8a7492
-      internalID: -1288484492
+      spriteID: 7511f772f2fb942498cf3bc135c09548
+      internalID: 1299460234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_3
+      name: PlayerRun_3
       rect:
         serializedVersion: 2
         x: 48
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18b042eeb17d73a4898eac5f11495ea7
-      internalID: -1644198433
+      spriteID: 409ea97d53b50904da4bc2cc91e0e314
+      internalID: -1736315719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_4
+      name: PlayerRun_4
       rect:
         serializedVersion: 2
         x: 64
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc886bc956e051b41b5f1b12d567d4bf
-      internalID: -446131436
+      spriteID: e4c8bdd4d2cea884f8cbde36add6c7f9
+      internalID: 1953099274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_5
+      name: PlayerRun_5
       rect:
         serializedVersion: 2
         x: 80
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c68494d504601d45bffb9658ac24091
-      internalID: 549627354
+      spriteID: bd2db5139e78c3047aa23354ac8ebcb9
+      internalID: 2032241871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_6
+      name: PlayerRun_6
       rect:
         serializedVersion: 2
         x: 96
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66d16166044d77d4c997e18fabc75880
-      internalID: 1934404408
+      spriteID: b6b8ac74a343624468cacbc37441eaf6
+      internalID: -1907560660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_7
+      name: PlayerRun_7
       rect:
         serializedVersion: 2
         x: 112
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8be73588637e479469493b20e84c43f1
-      internalID: 1165944462
+      spriteID: 118152bf0deab974e89cd59939247509
+      internalID: -13492760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_8
+      name: PlayerRun_8
       rect:
         serializedVersion: 2
         x: 0
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98528d390df211e45bc32fb1d0458a32
-      internalID: 686546761
+      spriteID: af149189f490a6a438ca764a1c3f79a7
+      internalID: 1903201491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_9
+      name: PlayerRun_9
       rect:
         serializedVersion: 2
         x: 16
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5066e1714845c346b5284c11e0bac78
-      internalID: -1017155251
+      spriteID: ccc7324790c6bc449a01165045bb6ba1
+      internalID: 1160064588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_10
+      name: PlayerRun_10
       rect:
         serializedVersion: 2
         x: 32
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc352fbc487cae54987b9915fa1075ae
-      internalID: 411914287
+      spriteID: 64c3a9f5e81835f42bc27e359b0847dc
+      internalID: -372209229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_11
+      name: PlayerRun_11
       rect:
         serializedVersion: 2
         x: 48
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b3864f2f199e604182d6c497452133d
-      internalID: -299992328
+      spriteID: db6c2a7591efabc4dbe80e0de03d4bbd
+      internalID: -1455869161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_12
+      name: PlayerRun_12
       rect:
         serializedVersion: 2
         x: 64
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 651e27ef82e04384b9792459d13dfedd
-      internalID: -520716612
+      spriteID: 4c8f3af09c53532409ca7ed75b428f7c
+      internalID: 19490112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_13
+      name: PlayerRun_13
       rect:
         serializedVersion: 2
         x: 80
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45ae7a118f7a3bc40a61e7760444622c
-      internalID: 603878524
+      spriteID: f804b0740c2de9043b891fb28f1ed4d4
+      internalID: -1170713604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_14
+      name: PlayerRun_14
       rect:
         serializedVersion: 2
         x: 96
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea9260f08e1feb84cb94abf9f80e69e4
-      internalID: 796349533
+      spriteID: 33a480742a918784abb97c98ff527009
+      internalID: 732419568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_15
+      name: PlayerRun_15
       rect:
         serializedVersion: 2
         x: 112
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1afe89bc1e91c04499adb2ffa747d85
-      internalID: -1818173611
+      spriteID: 738743428a62d9b4f8f956e321cf7100
+      internalID: -785924358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_16
+      name: PlayerRun_16
       rect:
         serializedVersion: 2
         x: 0
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a16486995890da40a0ac11f4d8e289a
-      internalID: 2143307084
+      spriteID: 7d121e63c92083f40a538d30861b4f94
+      internalID: -1736379833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_17
+      name: PlayerRun_17
       rect:
         serializedVersion: 2
         x: 16
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e13906a9b63c1ea419fe9d2a5758e56d
-      internalID: 178514509
+      spriteID: e9e8c07d003a8a740b3116aa046f88c4
+      internalID: -937495130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_18
+      name: PlayerRun_18
       rect:
         serializedVersion: 2
         x: 32
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9973f09c4aa71646aa86bc62766f390
-      internalID: -1066618769
+      spriteID: a3fba5fedff2f964d99b1bc8871e5513
+      internalID: -1530334658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_19
+      name: PlayerRun_19
       rect:
         serializedVersion: 2
         x: 48
@@ -523,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f79976a883986594284f9d8547a15348
-      internalID: -1548388579
+      spriteID: 17be51e4a0e343a42a0191dbb889f835
+      internalID: -79097122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_20
+      name: PlayerRun_20
       rect:
         serializedVersion: 2
         x: 64
@@ -544,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81414c8e0072b8841bf4a0f163a0a438
-      internalID: -1491696669
+      spriteID: ea6cb7e3edc2a3543a02fcb07e0edb21
+      internalID: -75029208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_21
+      name: PlayerRun_21
       rect:
         serializedVersion: 2
         x: 80
@@ -565,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f7ffd84e8cd5a64fac6dc4022b6c441
-      internalID: -407245938
+      spriteID: 3795e94a49b2fed469870da0c05bef24
+      internalID: 1772739249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_22
+      name: PlayerRun_22
       rect:
         serializedVersion: 2
         x: 96
@@ -586,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a62f0fdcca3d5c4dbd8f6cb69691612
-      internalID: 1834282327
+      spriteID: fb0c0ac419319954096f775fb4f4c788
+      internalID: -888984343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_23
+      name: PlayerRun_23
       rect:
         serializedVersion: 2
         x: 112
@@ -607,14 +607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e60370d52ef6f84dae6a6467661ad2e
-      internalID: 2060043302
+      spriteID: 46db7148fe1571949aa52989bdc45db4
+      internalID: -414844859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_24
+      name: PlayerRun_24
       rect:
         serializedVersion: 2
         x: 0
@@ -628,14 +628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55d7c1c0f5573144da2ca5f2b575032c
-      internalID: 1594740740
+      spriteID: 46ca1bffd41353e49aeac83aca67bf68
+      internalID: -145138160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_25
+      name: PlayerRun_25
       rect:
         serializedVersion: 2
         x: 16
@@ -649,14 +649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04cb7681a6ab6fc4ba8ef9f606124393
-      internalID: 1590667029
+      spriteID: 15e7a84f4268fef44b5e91847d8d194e
+      internalID: 1466685258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_26
+      name: PlayerRun_26
       rect:
         serializedVersion: 2
         x: 32
@@ -670,14 +670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f86c8eff5f8b4d143b95d79b7bdd459f
-      internalID: -1743710562
+      spriteID: beb91265d472ccc4c94d60bb0bb41574
+      internalID: -1430878882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_27
+      name: PlayerRun_27
       rect:
         serializedVersion: 2
         x: 48
@@ -691,14 +691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3302e9a3a58ee7c49813611649079c28
-      internalID: 1345426164
+      spriteID: bb6384d197911dc4191eb4747bac168c
+      internalID: -1656138268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_28
+      name: PlayerRun_28
       rect:
         serializedVersion: 2
         x: 64
@@ -712,14 +712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5e1bef4d76e06b45865356e275f5700
-      internalID: 2103660608
+      spriteID: bafe2c0d3eff93a4382550fa8bc036ee
+      internalID: -1900541333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_29
+      name: PlayerRun_29
       rect:
         serializedVersion: 2
         x: 80
@@ -733,14 +733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 841fe3ef89f1f914bb951c42a05d83da
-      internalID: -23345211
+      spriteID: 86eca73b2c8dd4045a87ae2c9db64089
+      internalID: -1266367454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_30
+      name: PlayerRun_30
       rect:
         serializedVersion: 2
         x: 96
@@ -754,14 +754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1992f44fdf170e42a334bd160a99ab4
-      internalID: -1964233924
+      spriteID: a97eaae918414f0478a301f944331c65
+      internalID: -562060748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayeRun_31
+      name: PlayerRun_31
       rect:
         serializedVersion: 2
         x: 112
@@ -775,8 +775,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2ef1318b734f8a4c8b91210bab3f63e
-      internalID: -1743417174
+      spriteID: 7687f073994245d439cf52d70025c0e6
+      internalID: -1267337067
       vertices: []
       indices: 
       edges: []
@@ -792,38 +792,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayeRun_0: -563480813
-      PlayeRun_1: 204735670
-      PlayeRun_10: 411914287
-      PlayeRun_11: -299992328
-      PlayeRun_12: -520716612
-      PlayeRun_13: 603878524
-      PlayeRun_14: 796349533
-      PlayeRun_15: -1818173611
-      PlayeRun_16: 2143307084
-      PlayeRun_17: 178514509
-      PlayeRun_18: -1066618769
-      PlayeRun_19: -1548388579
-      PlayeRun_2: -1288484492
-      PlayeRun_20: -1491696669
-      PlayeRun_21: -407245938
-      PlayeRun_22: 1834282327
-      PlayeRun_23: 2060043302
-      PlayeRun_24: 1594740740
-      PlayeRun_25: 1590667029
-      PlayeRun_26: -1743710562
-      PlayeRun_27: 1345426164
-      PlayeRun_28: 2103660608
-      PlayeRun_29: -23345211
-      PlayeRun_3: -1644198433
-      PlayeRun_30: -1964233924
-      PlayeRun_31: -1743417174
-      PlayeRun_4: -446131436
-      PlayeRun_5: 549627354
-      PlayeRun_6: 1934404408
-      PlayeRun_7: 1165944462
-      PlayeRun_8: 686546761
-      PlayeRun_9: -1017155251
+      PlayerRun_0: 1235654647
+      PlayerRun_1: 1539896250
+      PlayerRun_10: -372209229
+      PlayerRun_11: -1455869161
+      PlayerRun_12: 19490112
+      PlayerRun_13: -1170713604
+      PlayerRun_14: 732419568
+      PlayerRun_15: -785924358
+      PlayerRun_16: -1736379833
+      PlayerRun_17: -937495130
+      PlayerRun_18: -1530334658
+      PlayerRun_19: -79097122
+      PlayerRun_2: 1299460234
+      PlayerRun_20: -75029208
+      PlayerRun_21: 1772739249
+      PlayerRun_22: -888984343
+      PlayerRun_23: -414844859
+      PlayerRun_24: -145138160
+      PlayerRun_25: 1466685258
+      PlayerRun_26: -1430878882
+      PlayerRun_27: -1656138268
+      PlayerRun_28: -1900541333
+      PlayerRun_29: -1266367454
+      PlayerRun_3: -1736315719
+      PlayerRun_30: -562060748
+      PlayerRun_31: -1267337067
+      PlayerRun_4: 1953099274
+      PlayerRun_5: 2032241871
+      PlayerRun_6: -1907560660
+      PlayerRun_7: -13492760
+      PlayerRun_8: 1903201491
+      PlayerRun_9: 1160064588
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
